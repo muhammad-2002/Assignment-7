@@ -1,7 +1,11 @@
+import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-4xl text-red-800">App</h1>
+    <div className="w-[90%] mx-auto body">
+      <Navbar></Navbar>
+      <Banner></Banner>
     </div>
   );
 };
