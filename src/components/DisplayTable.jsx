@@ -19,36 +19,38 @@ const DisplayTable = ({ wantClick, setWantClick }) => {
     setCal(currentCal);
   };
   return (
-    <div className="border border-solid rounded-md border-gray-400 h-[650px]  p-4">
-      <div className="w-[70%] mx-auto mb-10">
+    <div className="border w-full border-solid rounded-md border-gray-400 h-[650px]  md:p-4 p-1">
+      <div className="w-full md:w-[70%] mx-auto mb-10">
         <h1 className="text-center text-3xl leading-4 ">
           Want to cook:{wantClick.length}
         </h1>
         <hr></hr>
       </div>
       <div>
-        <table className="w-full ">
+        <table className="w-full  ">
           <thead>
             <tr className="bg-gray-100">
               <th className="px-4 py-2 bg-gray-300">SL</th>
-              <th className="px-10 py-2 bg-gray-300">Name</th>
+              <th className="px-1 md:px-10 py-2 bg-gray-300">Name</th>
               <th className="px-4 py-2 bg-gray-300">Time</th>
               <th className="px-4 py-2 bg-gray-300">Calories</th>
-              <th className="px-4 py-2 bg-gray-300">Actions</th>
+              <th className="px- md:px-4 py-2 bg-gray-300">Actions</th>
             </tr>
           </thead>
           <tbody className="">
             {wantClick.map((data, index) => (
               <tr key={data.recipe_id} className="border-none bg-gray-200 ">
-                <td className="border  row-span-2 px-4 py-2">{index + 1}</td>
-                <td className="border px-2 py-2">{data.recipe_name}</td>
-                <td className="border px-4 py-2">{data.preparing_time}</td>
-                <td className="border px-4 py-2">{data.calories}</td>
-                <td className="border px-4 py-2">
+                <td className="border px-1 md:px-4 py-2">{index + 1}</td>
+                <td className="border px-1 md:px-2 py-2">{data.recipe_name}</td>
+                <td className="border px-1 md:px-4 py-2">
+                  {data.preparing_time}
+                </td>
+                <td className="border px-1 md:px-4 py-2">{data.calories}</td>
+                <td className="border px-1 md:px-4 py-2">
                   <button
                     onClick={() => handlePreparing(data)}
                     className="bg-green-500 outline-none border-none
-            hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full"
+            hover:bg-green-700 text-white font-bold py-2 px-1 md:px-4 rounded-full"
                   >
                     Preparing
                   </button>
@@ -59,17 +61,17 @@ const DisplayTable = ({ wantClick, setWantClick }) => {
         </table>
       </div>
       <div className="w-[70%] mx-auto mb-10">
-        <h1 className="text-center text-3xl leading-4">
+        <h1 className="text-center text-3xl md:leading-4 leading-7">
           Currently cooking: {currentPre.length}
         </h1>
         <hr></hr>
       </div>
       <div>
-        <table className="bg-gray-200 ">
+        <table className="bg-gray-200 flex flex-col justify-center items-center">
           <tr className=" bg-gray-300">
             <th className="px-4 py-2">SL</th>
-            <th className="px-16 py-2">Name</th>
-            <th className="px-10 py-2">Time</th>
+            <th className=" px-3 md:px-16 py-2">Name</th>
+            <th className="px-3 md:px-10 py-2">Time</th>
             <th className="px-10 py-2">Calories</th>
           </tr>
 

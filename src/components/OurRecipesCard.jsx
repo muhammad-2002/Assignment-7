@@ -9,8 +9,8 @@ const OurRecipesCard = ({ recipe, handleWantToClick }) => {
   } = recipe;
 
   return (
-    <div>
-      <div className="card  bg-base-100 shadow-xl h-[600px]">
+    <div className=" w-full">
+      <div className="card w-full flex justify-center items-center  bg-base-100 shadow-xl h-[600px]">
         <figure className="px-4 pt-10 w-[85%] h-40  mx-auto">
           <img
             src={recipe_image}

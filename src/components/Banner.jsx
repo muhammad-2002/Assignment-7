@@ -1,7 +1,11 @@
+import img from "../images/Banner.png";
 const Banner = () => {
   return (
     <div>
-      <div className="bg-[url('../../public/images/Banner.png')] bg-cover  rounded-3xl md:rounded-none md:w-full h-[550px]   md:bg-contain bg-no-repeat  flex justify-center items-center flex-col ">
+      <div
+        style={{ backgroundImage: "url(" + img + ")" }}
+        className=" bg-cover  rounded-3xl md:rounded-none md:w-full h-[550px]   md:bg-contain bg-no-repeat  flex justify-center items-center flex-col "
+      >
         <div className=" text-white flex justify-center items-center flex-col ">
           <h1 className="w-[90%] md:w-[55%] text-center text-[18px] md:text-[42px] font-bold">
             Discover an exceptional cooking class tailored for you!
