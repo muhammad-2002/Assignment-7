@@ -67,7 +67,7 @@ const DisplayTable = ({ wantClick, setWantClick }) => {
         <hr></hr>
       </div>
       <div>
-        <table className="bg-gray-200 flex flex-col justify-center items-center">
+        <table className="bg-gray-200 ">
           <tr className=" bg-gray-300">
             <th className="px-4 py-2">SL</th>
             <th className=" px-3 md:px-16 py-2">Name</th>
