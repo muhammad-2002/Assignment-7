@@ -1,0 +1,80 @@
+[
+  {
+    "recipe_image": "https://images.squarespace-cdn.com/content/v1/5d40bab35dafc600012f85c2/1586444925714-7E40D1UQ9FSBU1HGUSO1/mall+style+chicken+teriyaki.jpg?format=1500w",
+    "recipe_id": 1,
+    "recipe_name": "Chicken_teriyaki",
+    "short_description": "Delicious Japanese-style grilled chicken with a sweet and savory glaze.",
+    "ingredients": [
+      "550g chicken breast",
+      "120ml soy sauce",
+      "200g brown sugar",
+      "50g garlic"
+    ],
+    "preparing_time": "30 minutes",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_image": "https://s3-alpha-sig.figma.com/img/4c9c/4907/5cdba92e95d1813e3a14122be673189a?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QVE~y4ASVupV3iHo0kG0IL2gSx6~OfrG7JJNsnk6AiTrNcY0GLrZ3CAk69I9t4MdBlb8NvdaFoEs5mwpkz43g2MG64nwNfXdWMJwu7rUBDDdjd19x6kSiaJ1jaIUHA7XaypNhWi5ZrLe-3KG1q-bGT2SockYGvOMqmndVbJtia7fZtMK6O5iD5ztFLI6H92d6GtGTOGqj0vBOEt-tNEsJfjoZQ3u6SMfbC3Qjdj6bu681fbWJXP13p~ziv-NoPFxm5EXFD~OmUPbplfHrleN0Knoj3O8HlWmxew8pL7n1MfmcDSkKwAWCvCnR~QGaEz~8cr-uWsqkrbAP2eX1ANsjg__",
+    "recipe_id": 2,
+    "recipe_name": "Vegetable Curry",
+    "short_description": "A flavorful and hearty vegetarian curry loaded with assorted vegetables.",
+    "ingredients": [
+      "400g potatoes, diced",
+      "200g carrots, sliced",
+      "1 onion, chopped",
+      "100g cauliflower"
+    ],
+    "preparing_time": "40 minutes",
+    "calories": "820 calories"
+  },
+  {
+    "recipe_image": "https://www.vickery.tv/wp-content/uploads/2020/12/SMGD-Spaghetti-Bolognese.jpg",
+    "recipe_id": 3,
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "Classic Italian pasta dish with rich tomato-based meat sauce.",
+    "ingredients": [
+      "400g spaghetti",
+      "300g ground beef",
+      "400g canned crushed tomatoes"
+    ],
+    "preparing_time": "45 minutes",
+    "calories": "120 calories"
+  },
+  {
+    "recipe_image": "https://b3067249.smushcdn.com/3067249/wp-content/uploads/2020/05/chicken-fried-rice-848x477.jpg?lossy=0&strip=1&webp=1",
+    "recipe_id": 4,
+    "recipe_name": "Spicy Chicken Fried Rice",
+    "short_description": "Healthy and delicious grilled salmon fillets seasoned with herbs.",
+    "ingredients": [
+      "4 salmon fillets",
+      "2 tablespoons olive oil",
+      "1 lemon, sliced",
+      "100g green beans"
+    ],
+    "preparing_time": "20 minutes",
+    "calories": "520 calories"
+  },
+  {
+    "recipe_image": "https://s3-alpha-sig.figma.com/img/728d/7565/fe29593b9f62c1def025edfb2345fe84?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iDFp~bCFKFoZj-kryhabuu3WhnihuZuLlFJvNqldLK2XSMcAGi3z9UvlAqF1VK3sXwasS5QG5raZSFrfzzJkWGK~dRUhJxlYIc3feQIyZlp3subQhsTh15pG~~M3D3hAUHv5nvAM-Tjmd1rKvVLysyThUcSjCOgTNJvNI~ylf5SFq8-pTi0jTy--5yTuUPoJ2sDUGWNEvnq6nHGAFjbcbsnLbsHFVuDgrLlpb15r8LdCNhQfpIFj4j9McizHS2btgH9NHdQnYJvmjrQLFsxxq7hyK7RK2GzaE9tKeHPOVNRq9-KVPEa8Cu91Wiymz7u1BPzDqMORwjaiKQYjfr5q-w__",
+    "recipe_id": 5,
+    "recipe_name": "Chicken Caesar Salad",
+    "short_description": "Refreshing and creamy smoothie made with ripe bananas and yogurt.",
+    "ingredients": ["2 ripe bananas", "200ml yogurt", "100ml milk"],
+    "preparing_time": "10 minutes",
+    "calories": "230 calories"
+  },
+  {
+    "recipe_image": "https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?w=740&t=st=1710632273~exp=1710632873~hmac=4e7f2a4b59ceaba8daea9a4b1f7d0f719d6e6a38c36c713219b16f01b817d7a4",
+    "recipe_id": 6,
+    "recipe_name": "chicken-skewers",
+    "short_description": "Healthy and satisfying wrap filled with grilled vegetables and hummus.",
+    "ingredients": [
+      "1 zucchini, sliced",
+      "1 red bell pepper, sliced",
+      "1 yellow bell pepper, sliced",
+      "100g mushrooms"
+    ],
+    "preparing_time": "25 minutes",
+    "calories": "220 calories"
+  }
+]

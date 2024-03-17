@@ -22,10 +22,15 @@ const Navbar = () => {
               </svg>
             </div>
           </div>
-          <a className="font-bold text-3xl">Recipe Calories</a>
+          <a
+            className="font-bold text-xl flex
+           md:text-3xl"
+          >
+            Recipe Calories
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-[16px]">
+          <ul className="menu menu-horizontal px-1 text-[16px] ">
             <li>
               <a>Home</a>
             </li>
