@@ -11,9 +11,7 @@ The Recipe Calories website helps you manage your cooking by displaying recipes,
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-
+- 
 ## Local Setup Instructions
 
 ### 1. Clone the Repository:
