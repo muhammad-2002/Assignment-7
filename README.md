@@ -1,9 +1,22 @@
-# React + Vite
+# Recipe Calories Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Recipe Calories website helps you manage your cooking by displaying recipes, their total calories, and cooking times.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# b9a7-chefs-table-muhammad-2002
+- **Recipe Viewing:** Browse and view detailed recipes.
+- **Add to Cooking List:** Click the "Want to Cook" button to add recipes to your cooking list.
+- **Prepare Recipes:** Click the "Preparing" button to display the total cooking time and calories for all selected recipes.
+
+## Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+
+## Local Setup Instructions
+
+### 1. Clone the Repository:
+```bash
+git clone https://github.com/your-repo/recipe-calories-website.git
+cd recipe-calories-website
